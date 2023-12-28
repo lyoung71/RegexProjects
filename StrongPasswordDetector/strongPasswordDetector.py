@@ -1,7 +1,7 @@
 import re
 
 
-def strongPasswordDetector():
+def strong_password_detector():
     password = input("Please enter your password ")
 
     lengthRegex = re.compile(r'\w{8,}')
@@ -25,4 +25,4 @@ def strongPasswordDetector():
     else:
         return "You have a strong password!"
 
-print(strongPasswordDetector())
+print(strong_password_detector())

@@ -1,6 +1,6 @@
 import re
 
-def redactorTool(text):
+def redactor_tool(text):
     #regular expressions
     namesRegex = re.compile(r'Agent \w+')
     namesRegex2 = re.compile(r'Ms. \w+')
@@ -25,4 +25,4 @@ message = """
     We haven't heard from him since.
     """
 
-print(redactorTool(message))
+print(redactor_tool(message))

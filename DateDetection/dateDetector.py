@@ -1,7 +1,7 @@
 import re
 
 
-def dateDetector():
+def date_detector():
     dateRegex = re.compile(
         r'''
             ([0][1-9]|[1-2][0-9]|[3][0-1])       # day
@@ -27,4 +27,4 @@ def dateDetector():
     else:
         return "Date is valid"
 
-print(dateDetector())
+print(date_detector())
